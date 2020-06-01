@@ -1,0 +1,6 @@
+cp=float(input('Enter cost price: '))
+sp = float(input('Enter selling price: '))
+profit=sp-cp
+print('Profit is : ',profit)
+sp2= (1.05*profit)+cp
+print('The selling price for increasing profit by 5%: ',sp2)
